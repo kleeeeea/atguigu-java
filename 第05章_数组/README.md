@@ -605,13 +605,13 @@ public class ScoreTest1 {
   某公司2022年全年各个月份的销售额进行登记。按月份存储，可以使用一维数组。如下：
 
   ```java
-int[] monthData = new int[]{23,43,22,34,55,65,44,67,45,78,67,66};
+  int[] monthData = new int[]{23,43,22,34,55,65,44,67,45,78,67,66};
   ```
 
   如果改写为按`季度`为单位存储怎么办呢？
 
   ```java
-int[][] quarterData = new int[][]{{23,43,22},{34,55,65},{44,67,45},{78,67,66}};
+  int[][] quarterData = new int[][]{{23,43,22},{34,55,65},{44,67,45},{78,67,66}};
   ```
 
 
@@ -2152,4 +2152,12 @@ public class TestNullPointerException {
 		String[] arr3 = new String[10];
 		System.out.println(arr3[2].toString());
 ```
+
+
+
+
+
+
+
+
 
